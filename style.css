@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./crpto.png);
+}
+
+h1 {
+    text-align: center;
+}
+
+.titleMain{
+    color: white;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    color: white;
+    font-weight: 1000;
+}
+
+input[type="file"] {
+    padding: 5px;
+}
+
+input{
+    border-radius: 5px;
+    padding-left: 5px;
+    
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container {
+    margin-top: 20px;
+}
+.maincontainer{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.containerPT{
+    justify-content: start ;
+}

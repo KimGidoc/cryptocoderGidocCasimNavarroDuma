@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Caesar Cipher Encryption and Decryption </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1 class="titleMain">Caesar Cipher Encryption and Decryption </h1>
+<div class="maincontainer">
+    <div class="containerPT">
+        <label for="plaintext">Plaintext:</label>
+        <input type="text" id="plaintext">
+    </div>
+
+    <div class="containerK">
+        <label for="shift">Key:</label>
+        <input type="number" id="shift" min="1" max="25" value="1">
+    </div>
+
+    <div class="container">
+        <button onclick="encryptText()">Encrypt</button>
+    </div>
+
+    <div class="container">
+        <label for="encrypted">Encrypted Text:</label>
+        <input type="text" id="encrypted">
+    </div>
+
+    <div class="container">
+        <button onclick="decryptText()">Decrypt</button>
+    </div>
+
+    <div class="container">
+        <label for="decrypted">Decrypted Text:</label>
+        <input type="text" id="decrypted">
+    </div>
+
+    <div class="container">
+        <label for="fileInput">Select File:</label>
+        <input type="file" id="fileInput" accept=".txt" onchange="handleFileSelect(event)">
+    </div>
+
+    <div class="container">
+        <button onclick="encryptFile()">Encrypt File</button>
+    </div>
+
+    <div class="container">
+        <button onclick="decryptFile()">Decrypt File</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
